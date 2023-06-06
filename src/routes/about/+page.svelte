@@ -1,6 +1,10 @@
-<p>about page</p>
-
-<a href="/src/routes/contact/+page.svelte">contact</a>
-<a href="/src/routes/home/+page.svelte">home</a>
 
 
+<nav>
+	<a href="/">home</a>
+	<a href="/about">about</a>
+    <a href="/contact">contact</a>
+</nav>
+
+<h1>about</h1>
+<p>this is the about page.</p>

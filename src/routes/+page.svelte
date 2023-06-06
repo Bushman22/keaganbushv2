@@ -1,9 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
+<nav>
+	<a href="/">home</a>
+	<a href="/about">about</a>
+    <a href="/contact">contact</a>
+</nav>
 
-    
-    
-    
-   
-    <a href='\src\routes\contact\+page.svelte'>contact</a>
-    <a href='\src\routes\about\+page.svelte'>about</a>
-
+<h1>home</h1>
+<p>this is the home page.</p>
