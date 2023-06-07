@@ -20,10 +20,12 @@
   <div class="navbar">
     <nav>
       <ul>
+        <img src="/logo.png" alt="logo" height = 50px>
         <li><a href="/">home</a></li>
 		    <li><a href="/about">about</a></li>
    	 	  <li><a href="/contact">contact</a></li>
         <li><a href="https://youtu.be/dQw4w9WgXcQ">More</a></li>
+        <img src="/logo.png" alt="logo" height = 50px>
       </ul>
     </nav>
   </div>
@@ -36,21 +38,22 @@
   <div class ="wording2">
 
   <h2 >Welcome to my site, here you will find
-    everything you need to know about me <br/>
-    as well as my work experience, contact details and my resume <br/>
-      feel free to browse.</h2>
+    everything you need to know about me<br/>
+    You will find my work experience, contact details and my resume.
+      Feel free to browse.</h2>
   </div>
 
 <div class ="resume">
   <button><a style=text-decoration:none; href="./assets/KJB.pdf" download>Download my resume</a></button>
   </div>
+<div class ="horizon">
+  <img src = '.\assets\city.png' alt = 'city' width = 100%>
 
-<pic1><img src = '.\assets\character.png' alt = 'man' height = 500px></pic1>
-<pic2><img src = '.\assets\sitting.png' alt = 'man' height = 300px></pic2>
+</div>
+
 </main>
 
 <lk>
-<footer><a href="/nothing" style="color: white;">Nothing to see here</a></footer>
 </lk>
 
 <style>
@@ -62,7 +65,7 @@
 
   color-scheme: none;
   color: black;
-  background: #36454F;
+  background: #99BADD;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -90,9 +93,14 @@ background: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px;
+  padding: 100px;
 }
 
+.horizon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 a {
 
   color: white
@@ -101,8 +109,8 @@ a {
 
 
 ml {
-  color:#D4AF37;
-  font-size: 0.9em;
+  color:#202A44;
+  font-size: 45px;
   
  }
 
