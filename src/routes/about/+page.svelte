@@ -1,6 +1,8 @@
 
 
-<body>
+<style>
+
+</style>
 
 <div class="about">
 
@@ -8,12 +10,13 @@
 <title>
   about
 </title>
+<div class ="webContainer">
 <div class="navbar">
     <nav>
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href = "/about">about</a></li>
-		<li><a href ="/contact">contact</a></li>
+		    <li><a href ="/contact">contact</a></li>
       </ul>
     </nav>
   </div>
@@ -23,7 +26,7 @@
 <p>Valid Drivers License: Code B<br/>
    Valid Learners license: Code A </p>
   <h2>DATE OF BIRTH</h2>
-<p>22.12.2002 (Age: 20)</p>
+<p>22.12.2002 Age: 20</p>
 <h2>KEY SKILLS</h2>
 <p>CLIENT SERVICES, MANAGEMENT, SALES & RETAIL<br/>
   VIDEO GAME CREATION, CODING: HTML/JAVA/C++</p>
@@ -31,7 +34,7 @@
 
 <div class = "middle">
 <h2>ACHIEVEMENTS</h2>
-<p>1ST TEAM ROCK CLIMBING AT AGE 15 (PBHS), 1ST TEAM CROSS COUNTRY (PBHS)<br/>
+<p>1ST TEAM ROCK CLIMBING AT AGE 15 PBHS, 1ST TEAM CROSS COUNTRY PBHS<br/>
    CREATED WEBSITES FROM SCRATCH USING C++ and this website...for me is an achievement</p>
 <h2>COMPUTER SKILLS</h2>
 <p>Microsoft Office Suite, Adequate knowledge with programming <br/>
@@ -69,9 +72,9 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color-scheme: none;
+  color: black;
+  background: #36454F;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -111,109 +114,52 @@
   text-transform:uppercase;
 
 }
-
-pic1 {
-  position: absolute;
-  top: 100px;
-  left:900px;
-
-}
-
-pic2 {
-  position: absolute;
-  top: 1100px;
-  left:1000px;
-}
-
-pic3 {
-  position: absolute;
-  top: 700px;
-  left:100px;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 230vh;
-  background-image: linear-gradient(#D4AF37,gray,gray , black);
-}
-
-h1 {
-  font-size: 2.5em;
-  line-height: 1.2;
-  color: white;
-  position: absolute;
-  top:200px;
-  left:100px;
-}
-
-
-
-ml {
-  color:#D4AF37;
-  font-size: 0.9em;
- 
- }
-
 #app {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
-
-button {
-
-  position: absolute;
-  top: 410px;
-  left:100px;
-  }
-
-
-
-    .navbar {
-      background-image:linear-gradient(grey, lightgray);
-      width:800px;
-      border-radius :10px;
-      float: left;
-      position:absolute;
-      top:40px;
-      left:350px;
-        
+* {
+      margin:0;
+      box-sizing:border-box;
+    }
+  .navbar {
+      background: black;
+      
         }
       
     
-      
-    
-    .navbar ul li {
-      float: left;
-      width: 100px;
-      height :58px;
-      line-height:40px;
-      margin-left:100px;
-      list-style:none;
+    .navbar ul{
+       list-style-type:none;
+       padding: 30px;
+      }
+    .navbar li {
+    border: 2px solid black;
+    border-radius:10px;
+    margin-left:20px;
+    padding: 10px 30px 10px 30px;
 
       }
       
-    .navbar ul li a {
-      display:block;
+    .navbar a {
+      display:Block;
       color: white;
-      text-align: center;
       text-decoration:none;
       text-transform: uppercase;
-      padding:0px 10px px 10px;
     
+    }
+
+      @media screen and (min-width:700px){
+        .navbar ul {
+        display:flex;
+        justify-content: center;}
+        button { display:flex;}
       }
-      
-    .navbar ul li a:hover {
-      background-color: #D4AF37;
-      border-radius:10px;
-      
-	}
+
+    
 </style>
 
-</body>
+</div>
 
 
