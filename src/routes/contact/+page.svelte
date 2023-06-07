@@ -11,10 +11,11 @@
 	   <div class="navbar">
 		<nav>
 		  <ul>
-			<li><a href="/">home</a></li>
+        <img src="/logo.png" alt="logo" height = 50px>
+			  <li><a href="/">home</a></li>
 				<li><a href="/about">about</a></li>
-				  <li><a href="/contact">contact</a></li>
-			
+				<li><a href="/contact">contact</a></li>
+        <img src="/logo.png" alt="logo" height = 50px;>
 		  </ul>
 		</nav>
 	  </div>
@@ -71,16 +72,17 @@
       background: black;
       
         }
-      
-    
+
     .navbar ul{
        list-style-type:none;
        padding: 30px;
       }
+      
     .navbar li {
     border: 2px solid black;
     border-radius:10px;
     margin-left:20px;
+    margin-right:20px;
     padding: 10px 30px 10px 30px;
 
       }
@@ -90,7 +92,7 @@
       color: white;
       text-decoration:none;
       text-transform: uppercase;
-    
+      font-weight:500;
       }
 
       @media screen and (min-width:700px){

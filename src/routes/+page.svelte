@@ -11,10 +11,6 @@
   <title>Keagan Bush</title>
 </head>
 <main>
-<body>
-
-</body>
-
 
 
   <div class="navbar">
@@ -32,15 +28,16 @@
 
 
   <div class ="wording1">
-  <h1>Hi, I'm Keagan Bush. <ml>YOUR NEW AND INNOVATIVE DEVELOPER</ml></h1>
+  <h1>Hi, I'm Keagan Bush<br/>
+   <ml>YOUR NEW AND INNOVATIVE DEVELOPER</ml></h1>
 </div>
 
   <div class ="wording2">
 
   <h2 >Welcome to my site, here you will find
     everything you need to know about me<br/>
-    You will find my work experience, contact details and my resume.
-      Feel free to browse.</h2>
+    You will find my work experience, contact details and my resume<br/>
+      Feel free to browse</h2>
   </div>
 
 <div class ="resume">
@@ -65,7 +62,8 @@
 
   color-scheme: none;
   color: black;
-  background: #99BADD;
+  background:#99BADD;
+  
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -73,7 +71,6 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
 
 .wording1{
 text-align:center;
@@ -84,16 +81,18 @@ font-size:20px;
 
 .wording2{
 text-align:center;
-padding:0px;
+padding:4px 40px;
 text-transform:uppercase;
 background: none;
+font-size:18px;
+color:black;
 }
 
 .resume{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 100px;
+  padding: 100px ;
 }
 
 .horizon{
@@ -134,6 +133,7 @@ ml {
     border: 2px solid black;
     border-radius:10px;
     margin-left:20px;
+    margin-right:20px;
     padding: 10px 30px 10px 30px;
 
       }
@@ -143,6 +143,7 @@ ml {
       color: white;
       text-decoration:none;
       text-transform: uppercase;
+      font-weight:500;
     
       }
 
