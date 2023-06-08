@@ -93,8 +93,7 @@
 
   color-scheme: none;
   color: black;
-  background-image:url("/matrix.jpg");
-  background-size:200%;
+  background:#202A44;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
