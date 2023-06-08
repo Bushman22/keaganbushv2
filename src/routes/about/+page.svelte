@@ -94,7 +94,7 @@
   color-scheme: none;
   color: black;
   background-image:url("/matrix.jpg");
-  background-size:250%;
+  background-size:200%;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -113,7 +113,7 @@
   text-transform: uppercase;
   color:black;
   background:#99BADD;
-  margin:100px;
+  margin:50px;
   margin-top:30px;
   box-shadow: 0px 5px 25px white;
   border-radius: 20px;
@@ -131,7 +131,7 @@
   text-transform: uppercase;
   color:black;
   background:#99BADD;
-  margin:100px;
+  margin:50px;
   margin-top:25px;
   box-shadow: 0px 5px 25px white;
   border-radius: 20px;
@@ -146,7 +146,7 @@
   color:black;
   font-weight:500;
   background:#99BADD;
-  margin:100px;
+  margin:50px;
   margin-top:25px;
   box-shadow: 0px 5px 25px white;
   border-radius: 20px;

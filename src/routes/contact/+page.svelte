@@ -144,7 +144,7 @@
 
 
 .boxes {
-  width:25% ;
+  width:29% ;
   height:200px;
   line-height:30px;
   background:#36454F;
