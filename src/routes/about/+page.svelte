@@ -29,13 +29,13 @@
 </div>
   
 <div class ="top">
-<b>LICENCE:</b>
+<b>LICENCE</b>
 <p>Valid Drivers Licence: Code B<br/>
    Valid Learners Licence: Code A </p>
-<b>DATE OF BIRTH:</b>
+<b>DATE OF BIRTH</b>
 <p>22.12.2002 Age: 20</p>
-<b>KEY SKILLS:</b>
-<p>CLIENT SERVICES, MANAGEMENT, SALES & RETAIL
+<b>KEY SKILLS</b>
+<p>CLIENT SERVICES, MANAGEMENT, SALES & RETAIL,
   VIDEO GAME CREATION, CODING: HTML/JAVA/C++</p>
 </div>
 
@@ -46,7 +46,7 @@
 <div class = "middle">
 <b>ACHIEVEMENTS</b>
 <p>1ST TEAM ROCK CLIMBING AT AGE 15 PBHS, 1ST TEAM CROSS COUNTRY PBHS<br/>
-   CREATED WEBSITES FROM SCRATCH USING C++ and this website...for me is an achievement</p>
+   CREATED WEBSITES FROM SCRATCH USING C++/HTML and this website...for me is an achievement</p>
 <b>COMPUTER SKILLS</b>
 <p>Microsoft Office Suite, Adequate knowledge with programming <br/>
   Java/C++/HTML/Python, Technical knowledge on computer hardware and software<br/>
@@ -61,19 +61,24 @@
 </div>
 <div class = "bottom">
 
-  <b>current:</b> Oasis Water, Meadowdale mall:<br/>
-     <p>Store manager, management of staff, stock control 
+  <b>current</b>
+  <p> Oasis Water, Meadowdale mall:<br/>
+     Store manager, management of staff, stock control, 
      managing deliveries, customer service </p>
-<b>2021-2022:</b>
+<b>2021-2022</b>
   <p>Wild-on-Pets, Greenstone:<br/>
-     Manager assistant client services, stock control & general maintenance
+     Manager assistant, client services, stock control & general maintenance
 </p>
-<b>2019-2021:</b>
+<b>2019-2021</b>
   <p>Rebel Pets, Kempton Park: <br/>
-    Sales assistant, client services stock control, cashier, packing and general maintenance.
+    Sales assistant, client services, stock control, cashier, packing and general maintenance.
 </p>
 
 </div>
+
+<div class ="me">
+  <img src = '.\assets\myself.jpeg' alt = 'me' height= 380px>
+  </div>
 
 <div class ="horizon">
 <img src = '.\assets\city.png' alt = 'city' width = 100%>
@@ -101,12 +106,13 @@
 
 .top {
   text-align:left;
-  font-size: 1.3em;
+  font-size: 1.1em;
+  font-weight:500;
   line-height: 35px;
   padding:50px 50px;
   text-transform: uppercase;
-  color:white;
-  background:#202A44;
+  color:black;
+  background:#99BADD;
   margin:100px;
   margin-top:30px;
   box-shadow: 0px 5px 25px white;
@@ -115,16 +121,16 @@
   
 }
 
-
-
 .middle{
   text-align:left;
-  font-size: 1.3em;
+  font-size: 1.1em;
+  font-weight:500;
+  font-weight:500;
   line-height: 35px;
   padding:50px 50px;
   text-transform: uppercase;
-  color:white;
-  background:#202A44;
+  color:black;
+  background:#99BADD;
   margin:100px;
   margin-top:25px;
   box-shadow: 0px 5px 25px white;
@@ -133,12 +139,13 @@
 
 .bottom{
   text-align:left;
-  font-size: 1.3em;
+  font-size: 1.1em;
   line-height: 35px;
   padding:50px 50px;
   text-transform: uppercase;
-  color:white;
-  background:#202A44;
+  color:black;
+  font-weight:500;
+  background:#99BADD;
   margin:100px;
   margin-top:25px;
   box-shadow: 0px 5px 25px white;
@@ -173,6 +180,13 @@
   align-items: center;
   justify-content: center;
 }
+
+.me{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #app {
   max-width: 1280px;
   margin: 0 auto;
@@ -211,9 +225,13 @@
     }
 
     b{
-      color:#99BADD;
+      color:blue;
       font-size:25;
     }
+    a:hover {
+border:none;
+color: #99BADD;
+}
 
       @media screen and (min-width:700px){
         .navbar ul {

@@ -62,7 +62,6 @@
 
   color-scheme: none;
   color: black;
-  background:#99BADD;
   
 
   font-synthesis: none;
@@ -105,7 +104,9 @@ a {
   color: white
 }
 
-
+body{
+  background-image:linear-gradient(#99BADD,orange)
+}
 
 ml {
   color:#202A44;
@@ -146,6 +147,10 @@ ml {
       font-weight:500;
     
       }
+.navbar a:hover {
+border:none;
+color: #99BADD;
+}
 
     
       
@@ -173,16 +178,17 @@ ml {
   cursor: pointer;
   transition: border-color 0.25s;
   color: white;
-  text-decoration:none;
+  text-decoration:none;}
 
+ 
 
-}
 button:hover {
 background-color: grey;
 border:none;
-color: rgb(255, 255, 255);
+color: white;
 box-shadow: 0px 5px 25px black;
 }
+
 
 </style>
 </div>
