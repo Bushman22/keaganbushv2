@@ -57,7 +57,11 @@
 
 <div class="aboutme2">
 
-  <h1>Work experience</h1>
+  <h1>Work</h1>
+</div>
+<div class="aboutme3">
+
+  <h1>experience</h1>
 </div>
 <div class = "bottom">
 
@@ -167,11 +171,21 @@
   text-align: center;
   color: white;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 22px;
   margin:20px 100px;
+  margin-bottom:1px;
   font-family:serif;
 
-  
+}
+.aboutme3{
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 22px;
+  margin:15px;
+  margin-top:1px;
+  font-family:serif;
+
 }
 
 .horizon{
