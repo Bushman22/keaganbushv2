@@ -14,57 +14,71 @@
 <div class="navbar">
     <nav>
       <ul>
+        <img src="/logo.png" alt="logo" height = 50px>
         <li><a href="/">Home</a></li>
         <li><a href = "/about">about</a></li>
 		    <li><a href ="/contact">contact</a></li>
+        <img src="/logo.png" alt="logo" height = 50px>
       </ul>
     </nav>
   </div>
 
+<div class="aboutme">
+
+  <h1>About me </h1>
+</div>
+  
 <div class ="top">
-<h2>LICENSE</h2>
-<p>Valid Drivers License: Code B<br/>
-   Valid Learners license: Code A </p>
-  <h2>DATE OF BIRTH</h2>
+<b>LICENCE:</b>
+<p>Valid Drivers Licence: Code B<br/>
+   Valid Learners Licence: Code A </p>
+<b>DATE OF BIRTH:</b>
 <p>22.12.2002 Age: 20</p>
-<h2>KEY SKILLS</h2>
-<p>CLIENT SERVICES, MANAGEMENT, SALES & RETAIL<br/>
+<b>KEY SKILLS:</b>
+<p>CLIENT SERVICES, MANAGEMENT, SALES & RETAIL
   VIDEO GAME CREATION, CODING: HTML/JAVA/C++</p>
 </div>
 
+<div class="aboutme2">
+
+  <h1>info and skills</h1>
+</div>
 <div class = "middle">
-<h2>ACHIEVEMENTS</h2>
+<b>ACHIEVEMENTS</b>
 <p>1ST TEAM ROCK CLIMBING AT AGE 15 PBHS, 1ST TEAM CROSS COUNTRY PBHS<br/>
    CREATED WEBSITES FROM SCRATCH USING C++ and this website...for me is an achievement</p>
-<h2>COMPUTER SKILLS</h2>
+<b>COMPUTER SKILLS</b>
 <p>Microsoft Office Suite, Adequate knowledge with programming <br/>
   Java/C++/HTML/Python, Technical knowledge on computer hardware and software<br/>
   Retail software - QuickBooks, Humble</p>
-  <h2>key attributes</h2>
-  <p> ADAPTABILITY, RESILIENCE, PROBLEM-SOLVING and CREATIVITY</p>
+  <b>key attributes</b>
+  <p>ADAPTABILITY, RESILIENCE, PROBLEM-SOLVING and CREATIVITY</p>
 </div>
 
+<div class="aboutme2">
 
+  <h1>Work experience</h1>
+</div>
 <div class = "bottom">
-<h2>work experience</h2>
-  <p><b>current:</b> Oasis Water, Meadowdale mall:<br/>
-     Store manager, management of staff, stock control <br/>
+
+  <b>current:</b> Oasis Water, Meadowdale mall:<br/>
+     <p>Store manager, management of staff, stock control 
      managing deliveries, customer service </p>
-<p><b>2021-2022:</b>
-  Wild-on-Pets, Greenstone: Manager assistant <br/>
-   client services, stock control & general maintenance
+<b>2021-2022:</b>
+  <p>Wild-on-Pets, Greenstone:<br/>
+     Manager assistant client services, stock control & general maintenance
 </p>
-<p><b>2019-2021:</b>
-  Rebel Pets, Kempton Park: Sales assistant, client services<br/>
-   stock control, cashier, packing and general maintenance.
+<b>2019-2021:</b>
+  <p>Rebel Pets, Kempton Park: <br/>
+    Sales assistant, client services stock control, cashier, packing and general maintenance.
 </p>
 
 </div>
 
-  <pic1><img src = './assets/program.png' alt = 'program' height = 600px></pic1>
-  <pic2><img src = './assets/comp.png' alt = 'comp' height = 450px></pic2>
-  <pic3><img src = './assets/myself.jpeg' alt = 'comp' height = 400px></pic3>
+<div class ="horizon">
+<img src = '.\assets\city.png' alt = 'city' width = 100%>
 
+</div>
 
 <style>
 :root {
@@ -74,7 +88,8 @@
 
   color-scheme: none;
   color: black;
-  background: #36454F;
+  background-image:url("/matrix.jpg");
+  background-size:250%;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -83,36 +98,80 @@
   -webkit-text-size-adjust: 100%;
 }
 
+
 .top {
+  text-align:left;
   font-size: 1.3em;
-  line-height: 1.0;
-  color:white;
-  position: absolute;
-  top:200px;
-  left:200px;
+  line-height: 35px;
+  padding:50px 50px;
   text-transform: uppercase;
+  color:white;
+  background:#202A44;
+  margin:100px;
+  margin-top:30px;
+  box-shadow: 0px 5px 25px white;
+  border-radius: 20px;
+
+  
 }
 
-.middle{
-  font-size: 1.3em;
-  line-height: 1.0;
-  color:white;
-  position: absolute;
-  top:690px;
-  left:500px;
-  text-transform:uppercase;
 
+
+.middle{
+  text-align:left;
+  font-size: 1.3em;
+  line-height: 35px;
+  padding:50px 50px;
+  text-transform: uppercase;
+  color:white;
+  background:#202A44;
+  margin:100px;
+  margin-top:25px;
+  box-shadow: 0px 5px 25px white;
+  border-radius: 20px;
 }
 
 .bottom{
+  text-align:left;
   font-size: 1.3em;
-  line-height: 1.0;
+  line-height: 35px;
+  padding:50px 50px;
+  text-transform: uppercase;
   color:white;
-  position: absolute;
-  top:1200px;
-  left:200px;
-  text-transform:uppercase;
+  background:#202A44;
+  margin:100px;
+  margin-top:25px;
+  box-shadow: 0px 5px 25px white;
+  border-radius: 20px;
 
+}
+
+.aboutme{
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin:50px 100px;
+  font-family:serif;
+
+  
+}
+
+.aboutme2{
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin:20px 100px;
+  font-family:serif;
+
+  
+}
+
+.horizon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #app {
   max-width: 1280px;
@@ -138,6 +197,7 @@
     border: 2px solid black;
     border-radius:10px;
     margin-left:20px;
+    margin-right:20px;
     padding: 10px 30px 10px 30px;
 
       }
@@ -147,7 +207,12 @@
       color: white;
       text-decoration:none;
       text-transform: uppercase;
-    
+      font-weight:500;
+    }
+
+    b{
+      color:#99BADD;
+      font-size:25;
     }
 
       @media screen and (min-width:700px){
