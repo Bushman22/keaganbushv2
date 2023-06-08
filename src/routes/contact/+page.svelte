@@ -69,7 +69,6 @@
 
   color-scheme: none;
   color: black;
-  background: #99BADD;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -77,8 +76,9 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-   
-   
+body{ 
+background-image:linear-gradient(#99BADD,pink,orange)
+}
     * {
       margin:0;
       

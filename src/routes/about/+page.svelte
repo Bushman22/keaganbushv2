@@ -97,7 +97,6 @@
 
   color-scheme: none;
   color: black;
-  background:#202A44;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -106,6 +105,9 @@
   -webkit-text-size-adjust: 100%;
 }
 
+body{
+  background-image:linear-gradient(#99BADD,pink,orange)
+}
 
 .top {
   text-align:left;
@@ -115,10 +117,10 @@
   padding:50px 50px;
   text-transform: uppercase;
   color:black;
-  background:#99BADD;
+  background:#b0c4de;
   margin:50px;
   margin-top:30px;
-  box-shadow: 0px 5px 25px white;
+  box-shadow: 0px 5px 25px black;
   border-radius: 20px;
 
   
@@ -133,10 +135,10 @@
   padding:50px 50px;
   text-transform: uppercase;
   color:black;
-  background:#99BADD;
+  background:#b0c4de;
   margin:50px;
   margin-top:25px;
-  box-shadow: 0px 5px 25px white;
+  box-shadow: 0px 5px 25px black;
   border-radius: 20px;
 }
 
@@ -148,17 +150,17 @@
   text-transform: uppercase;
   color:black;
   font-weight:500;
-  background:#99BADD;
+  background:#b0c4de;
   margin:50px;
   margin-top:25px;
-  box-shadow: 0px 5px 25px white;
+  box-shadow: 0px 5px 25px black;
   border-radius: 20px;
 
 }
 
 .aboutme{
   text-align: center;
-  color: white;
+  color: black;
   text-transform: uppercase;
   font-size: 25px;
   margin:50px 100px;
@@ -169,7 +171,7 @@
 
 .aboutme2{
   text-align: center;
-  color: white;
+  color: black;
   text-transform: uppercase;
   font-size: 22px;
   margin:20px 100px;
@@ -179,7 +181,7 @@
 }
 .aboutme3{
   text-align: center;
-  color: white;
+  color: black;
   text-transform: uppercase;
   font-size: 22px;
   margin:15px;

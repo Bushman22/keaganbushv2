@@ -105,7 +105,7 @@ a {
 }
 
 body{
-  background-image:linear-gradient(#99BADD,orange)
+  background-image:linear-gradient(#99BADD, pink,orange)
 }
 
 ml {
